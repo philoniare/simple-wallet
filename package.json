@@ -8,6 +8,8 @@
     "ios": "expo start --ios"
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.19.3",
+    "@react-native-picker/picker": "^2.5.1",
     "@types/react": "~18.2.14",
     "buffer": "^6.0.3",
     "elliptic-expo": "^6.5.3",

@@ -6,13 +6,13 @@ const commonStyles = StyleSheet.create({
     flex: 1,
     backgroundColor: "#fff",
     alignItems: "center",
-    justifyContent: "center",
+    paddingTop: 30,
+    justifyContent: "flex-start",
   },
   topContainer: {
     alignItems: "center",
-    justifyContent: "center",
-    height: "60%",
-    paddingHorizontal: 50,
+    justifyContent: "flex-start",
+    paddingHorizontal: 30,
   },
   buttonContainer: {
     flex: 1,
@@ -26,7 +26,7 @@ const commonStyles = StyleSheet.create({
     fontSize: 18,
     fontWeight: "bold",
     marginBottom: 10,
-  }
+  },
 });
 
 export default commonStyles;
